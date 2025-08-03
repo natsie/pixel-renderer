@@ -1,0 +1,37 @@
+{
+  "name": "pixel-renderer",
+  "version": "0.0.0-alpha.0",
+  "description": "An HTML canvas renderer with a focus on simplicity.",
+  "homepage": "https://github.com/natsie/pixel-renderer#readme",
+  "author": "Oghenevwegba Obire",
+  "license": "MIT OR Apache-2.0",
+  "main": "./dist/pixel.js",
+  "type": "module",
+  "keywords": [
+    "render",
+    "renderer",
+    "canvas",
+    "html5",
+    "texture",
+    "game"
+  ],
+  "scripts": {
+    "test": "npx mocha",
+    "build": "node ./npm_scripts/build.js",
+    "dev": "node ./npm_scripts/dev.js"
+  },
+  "bugs": {
+    "url": "https://github.com/natsie/pixel-renderer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsie/pixel-renderer.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "chai": "^5.2.0",
+    "mocha": "^11.6.0",
+    "natsie-server": "^0.0.1",
+    "typescript": "^5.8.3"
+  }
+}
